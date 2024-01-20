@@ -1,21 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package net1_project;
+package p2pchat;
+
+
 
 import javax.swing.JFrame;
 
-/**
- *
- * @author hp
- */
-public class Net1_project {
 
-    /**
-     * @param args the command line arguments
-     */
+public class p2pchatt {
+
+ 
     public static void main(String[] args) {
         // TODO code application logic here
         Client client1 = new Client();
@@ -24,6 +16,6 @@ public class Net1_project {
         Client client2 = new Client();
         client2.setVisible(true);
         client2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+       
     }
 }
